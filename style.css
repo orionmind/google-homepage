@@ -1,0 +1,199 @@
+/*Initial Settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Default Tags */
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: arial, sans-serif;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.apps-div,
+.sign-in-div {
+  display: inline-block;
+}
+.buttons {
+  margin: 0 auto;
+  display: inline-block;
+}
+.buttons input[type="submit"] {
+  height: 37px;
+  background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5f6368;
+  cursor: pointer;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+}
+.button-area {
+  padding-top: 18px;
+  text-align: center;
+}
+.footer {
+  font-size: small;
+}
+.footer a {
+  padding-left: 27px;
+  color: #5f6368;
+}
+.footer-container {
+  line-height: 40px;
+  position: absolute;
+  border-top: 1px solid #e4e4e4;
+  background: #f2f2f2;
+  bottom: 0;
+  width: 100%;
+}
+.footer-left {
+  float: left;
+}
+.footer-right {
+  float: right;
+  margin-right: 30px;
+}
+.top-nav {
+  color: rgba(0, 0, 0, 0.87);
+  position: fixed;
+  top: 16px;
+  width: 100%;
+  font-size: 13px;
+}
+.left-nav {
+  position: absolute;
+  margin: 7px 0 0 10px;
+}
+.left-nav a {
+  opacity: 0.75;
+  padding-left: 15px;
+}
+
+.right-nav {
+  display: inline-block;
+  float: right;
+  padding: 0 30px 0 30px;
+}
+.right-nav .apps,
+.right-nav .sign-in {
+  display: block;
+}
+.right-nav .apps a {
+  background-position: -132px -38px;
+  opacity: 0.55;
+  background-image: url(//ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+  -webkit-background-size: 528px 68px;
+  background-size: 528px 68px;
+  display: inline-block;
+  outline: none;
+  vertical-align: middle;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-sizing: border-box;
+  height: 30px;
+  width: 30px;
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+.right-nav a {
+  opacity: 0.75;
+  margin-left: 15px;
+}
+.logo {
+  position: relative;
+  display: block;
+  margin-top: 90px;
+  height: 233px;
+}
+
+.logo img {
+  padding-top: 109px;
+}
+
+.searchbox {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin: 0 auto;
+  height: 44px;
+  width: 582px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  padding-left: 15px;
+}
+.search-input {
+  font: 16px arial, sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+  width: 87%;
+}
+.search-input input {
+  width: 100%;
+  outline: none;
+  border: none;
+}
+.right-microphone {
+  flex: 1 0 auto;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border: 0;
+  background: transparent;
+  outline: none;
+  padding: 0;
+  margin-right: 3%;
+  width: 24px;
+  line-height: 44px;
+}
+
+/* Google-inherited*/
+.nS8rZ {
+  color: #9aa0a6;
+  height: 20px;
+  width: 20px;
+  margin-top: 3px;
+  margin-right: 10px;
+}
+.z1asCe {
+  display: inline-block;
+  float: left;
+  fill: currentColor;
+  height: 22px;
+  line-height: 24px;
+  position: relative;
+  width: 22px;
+}
+.hb2Smf {
+  background: url(//www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png)
+    0 0 no-repeat;
+  height: 24px;
+  width: 24px;
+  background-size: 24px;
+  vertical-align: middle;
+}
+
+#sign-in-button {
+  opacity: 100;
+  color: #fff;
+  display: inline-block;
+  line-height: 28px;
+  padding: 0 12px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  outline: none;
+}
+
